@@ -3,6 +3,8 @@ customer = {
     "age":21,
     "city":"California"
     }
+
+
 # print(customer)
 # print(customer["name"])
 # print(customer.keys())
