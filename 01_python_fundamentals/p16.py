@@ -1,0 +1,16 @@
+numbers = {1,2,3,4,5,2}
+# print(numbers)
+# for i in numbers:
+#     print(i)
+# numbers.add(99)
+# print(numbers)
+# numbers.update([34,23,56])
+# print(numbers)
+# numbers.remove(3)
+# print(numbers)
+# numbers.discard(31)
+# print(numbers)
+# numbers.pop()
+# print(numbers)
+numbers.clear()
+print(numbers)
