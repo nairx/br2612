@@ -12,5 +12,9 @@ name = "John Smith"
 # print(name.lower())
 # print(name.swapcase())
 # print(name.find("h"))
-print(name.replace("John","Ron"))
+# print(name.replace("John","Ron"))
 
+
+import re 
+result = re.sub("john","Ron",name,flags=re.IGNORECASE)
+print(result)
