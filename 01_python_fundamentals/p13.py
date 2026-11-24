@@ -1,0 +1,16 @@
+name = "John Smith"
+# print(name)
+# print(name[0])
+# print(name[1])
+# print(name[-1])
+# print(name[0:4])
+# print(name[:4])
+# print(name[1:4])
+# print(name[5:])
+# print(len(name))
+# print(name.upper())
+# print(name.lower())
+# print(name.swapcase())
+# print(name.find("h"))
+print(name.replace("John","Ron"))
+
