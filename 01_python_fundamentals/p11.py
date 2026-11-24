@@ -1,0 +1,5 @@
+age = int(input("Enter Age: "))
+if age < 18:
+    raise ValueError("Age must be 18 or above")
+print("Eligible for Registration")
+
