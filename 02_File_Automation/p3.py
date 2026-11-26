@@ -13,3 +13,8 @@ from pathlib import Path
 # data = file.read_text()
 # print(data)
 
+
+file = Path("backup/reports1.txt")
+with file.open(mode='a',encoding="utf-8") as f:
+    f.write("Line 1\n")
+    f.write("Line 2\n")
