@@ -15,8 +15,11 @@
 #     print(file)
 
 from pathlib import Path 
-file = Path("students.txt")
+# file = Path("students.txt")
+file = Path("backup/reports.txt")
 print(file.name)
 print(file.suffix)
 print(file.stem)
 print(file.parent)
+
+
