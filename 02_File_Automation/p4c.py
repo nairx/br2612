@@ -47,6 +47,7 @@ categories = {
     "Videos": [".mp4", ".avi", ".mov"],
     "programming": [".py", ".js"]
 }
+
 for category, extensions in categories.items():
     target_folder = folder / category
     target_folder.mkdir(exist_ok=True)
