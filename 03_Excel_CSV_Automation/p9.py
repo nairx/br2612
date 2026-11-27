@@ -10,7 +10,7 @@ sheet.append([101,"John","IT",45000])
 sheet.append([102,"Amy","Admin",15000])
 
 for cell in sheet[1]:
-    cell.font = Font(bold=True,color="FFFFFF"),
+    cell.font = Font(bold=True,color="FFFFFF")
     cell.fill = PatternFill(start_color="4472C4",fill_type="solid" )
     cell.alignment = Alignment(horizontal="center")
 
