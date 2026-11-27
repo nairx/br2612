@@ -1,0 +1,15 @@
+from selenium import webdriver 
+from time import sleep
+driver = webdriver.Chrome()
+driver.get("https://www.google.com")
+sleep(2)
+driver.get("https://www.python.org")
+sleep(2)
+driver.back()
+sleep(2)
+driver.forward()
+sleep(2)
+driver.refresh()
+sleep(2)
+print(driver.current_url)
+driver.quit()
